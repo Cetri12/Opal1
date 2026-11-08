@@ -39,7 +39,7 @@ Open Tutorial.txt, or read this:
 | **Lowercase Booleans** | `true` / `false` | `True` / `False` |
 | **Object Deletion** | `delete database` | `del database` |
 | **Main Execution Block**| `name_is_main:` | `if __name__ == "__main__":` |
-| **Global Diagnostics** | `debug` | `print(f"DEBUG LAYER CONSOLE: {locals()}
+| **Global Diagnostics** | `debug` | `print(f"DEBUG LAYER CONSOLE: {locals()}`
 
 
 ## ⚙Execution:
