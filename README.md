@@ -22,21 +22,21 @@ ESPython v1.07.05 Release Link: https://github.com/Cetri12/ESPython/releases/tag
 
 | Syntax Feature | Opal1 Standard Code Example | Transpiled Python Output |
 | :--- | :--- | :--- |
-| **Increment Operator** | `X++` / `Y = X++` | `X = X + 1` |
-| **Decrement Operator** | `X--` | `X = X - 1` |
-| **Conditional Suffix** | `else if condition:` | `elif condition:` |
-| **Inverted If Guard** | `unless condition:` | `if not condition:` |
-| **Inline Print Call** | `out("Text")` | `print("Text", end="")` |
-| **Newline Print Call** | `println("Text")` | `print("Text")` |
+| **Incremental Operator** | `X++` / `Y = X++` | `X = X + 1` |
+| **Decremental Operator** | `X--` | `X = X - 1` |
+| **Else if Conditional** | `else if condition:` | `elif condition:` |
+| **Unless Conditional** | `unless condition:` | `if not condition:` |
+| **Text output without a newline** | `out("Text")` | `print("Text", end="")` |
+| **Println** | `println("Text")` | `print("Text")` |
 | **Formatted Print** | `printf("Score: {score}")` | `print(f"Score: {score}")` |
 | **Integer User Input** | `age = intput("Enter age: ")` | `age = int(input("Enter age: "))` |
 | **Float User Input** | `gpa = floatput("Enter GPA: ")` | `gpa = float(input("Enter GPA: "))` |
 | **Logical OR Block** | `if A \|\| B:` | `if A or B:` |
 | **Logical AND Block** | `if A && B:` | `if A and B:` |
 | **Logical NOT Block** | `if ! condition:` | `if not condition:` |
-| **Inverted Loop Guard**| `untill condition:` | `while not condition:` |
+| **Untill Conditional**| `untill condition:` | `while not condition:` |
 | **State Nullifiers** | `null` / `nil` / `NaN` / `nothing` | `None` |
-| **Boolean Overrides** | `true` / `false` | `True` / `False` |
+| **Lowercase Booleans** | `true` / `false` | `True` / `False` |
 | **Object Deletion** | `delete database` | `del database` |
 | **Main Execution Block**| `name_is_main:` | `if __name__ == "__main__":` |
 | **Global Diagnostics** | `debug` | `print(f"DEBUG LAYER CONSOLE: {locals()}
