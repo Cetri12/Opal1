@@ -7,7 +7,7 @@ ESPython is very sandbox. Opal1 is not so, the lib system you may know of from E
 
 ESPython v1.07.05 Release Link: https://github.com/Cetri12/ESPython/releases/tag/ESPython_1.07.05
 
-#Open Tutorial.txt, or read this:
+# Open Tutorial.txt, or read this:
 
 
 # Notes on Incremental And Decremental Operators:
