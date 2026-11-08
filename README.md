@@ -49,5 +49,8 @@ The code will automatically execute the transpiled product. (this may be disable
 You can go into the folder and take out the transpiled product and use it. In most runtimes you do not get to see the
 compiled product, only the results.
 
+Notes From Creator: 
+it took me roughly 3-4 hours to make this from ESPython v1.07.05. Character by Character parsing is very efficient, and has made this parser very simple yet strong. ESPython is the base of opal1, and it was always meant to be so when I first began making Python-S (ESPython was originally called Python-S). This really showed me that making these complex things isn't actually so hard... I learned much from this and I will eventually launch opal2 off the back of opal1, or make an opal version that transpiles to a different coding language.
 
 
+N
