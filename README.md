@@ -9,6 +9,7 @@ ESPython v1.07.05 Release Link: https://github.com/Cetri12/ESPython/releases/tag
 
 Open Tutorial.txt, or read this:
 
+Opal1 is AOT transpired to python, meaning there is no slowdown during execution
 
 # Notes on Incremental And Decremental Operators:
 
@@ -45,7 +46,8 @@ Open Tutorial.txt, or read this:
 ## ⚙Execution:
 Drag code.opal1 into the folder, then double click Run.py
 The code will automatically execute the transpiled product. (this may be disabled in settings)
-
+You can go into the folder and take out the transpiled product and use it. In most runtimes you do not get to see the
+compiled product, only the results.
 
 
 
