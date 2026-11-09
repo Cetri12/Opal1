@@ -19,7 +19,7 @@ Opal1 is AOT transpired to python, meaning there is no slowdown during processed
 ☑Y = X++
 ❌Y=X-- (sensitive parser, add spaces around both sides of "=")
 
-#Notes on Library Dependant Functions:
+Notes on Library Dependant Functions:
 Opal1 will throw an error if the proper library is not imported, and for clear, it will throw an error if you aren't on windows.
 
 ## All Syntax:
