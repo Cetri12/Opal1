@@ -1,15 +1,15 @@
-Opal1 is a python language extension featuring 26 additional bits of useful syntax that transpile directly to python using a lightweight parser and only standard libraries such as sys and subprocess.
+Opal1 is a python language extension featuring 41 additional bits of useful syntax that transpile directly to python using a lightweight parser and only standard libraries such as sys and subprocess.
 
 Note: Opal is not an app or a PWA, it is intentionally minimal
 
 Opal1 : Created 11/8/2026 from the core of ESPython 1.07.05
-ESPython is very sandbox. Opal1 is not so, the lib system you may know of from ESPython is 
+ESPython is very sandbox. Opal1 is not so, the lib system you may know of from ESPython is not featured in opal
 
 ESPython v1.07.05 Release Link: https://github.com/Cetri12/ESPython/releases/tag/ESPython_1.07.05
 
 Open Tutorial.txt, or read this:
 
-Opal1 is AOT transpired to python, meaning there is no slowdown during execution
+Opal1 is AOT transpired to python, meaning there is no slowdown during processed file execution
 
 # Notes on Incremental And Decremental Operators:
 
@@ -43,7 +43,20 @@ Opal1 is AOT transpired to python, meaning there is no slowdown during execution
 | **Global Diagnostics** | `debug` | `print(f"DEBUG LAYER CONSOLE: {locals()}")` |
 |**Numerical Loop** | `do num` |  `for i in range(num): `|
 |**Forever loop** | `forever` | `While True:` |
-|**Alternate Function Keywords** | `fn/func/function` | `def`
+|**Alternate Function Keywords** | `fn/func/function` | `def`|
+|**Printing Lists** | `printlist(List)` | `print("".join(List))` |
+|**Do Nothing** | `do_nothing` | `pass` |
+|**Time Delay Function** | `delay()` | `time.sleep()` |
+|**Alternate Equals Operator** | `is` | `=` |
+|**Force Stop Code** | `stop` | `sys.exit`|
+|**Clear Terminal** | `clear` | `sys.platform('cls')` |
+|**Even Check** | `Number is_even` | `Number % 2 == 0` |
+|**Odd Check** | `Number is_odd` | `Number % 2 != 0` |
+|**Lowercase Operator Alternative** | `.lowercase()` | `.lower()` |
+|**Uppercase Operator Alternative** | `.uppercase()` | `.upper()` |
+|**Alternate If Equal Operator** | `a equals b` |  `a == b` |
+|**String Reverse Operator**| `text reversed` |  `text[::-1]` 
+
 
 
 ## ⚙Execution:
@@ -55,5 +68,5 @@ compiled product, only the results.
 Notes From Creator: 
 it took me roughly 3-4 hours to make this from ESPython v1.07.05. Character by Character parsing is very efficient, and has made this parser very simple yet strong. ESPython is the base of opal1, and it was always meant to be so when I first began making Python-S (ESPython was originally called Python-S). This really showed me that making these complex things isn't actually so hard... I learned much from this and I will eventually launch opal2 off the back of opal1, or make an opal version that transpiles to a different coding language.
 
+It took three more hours to jump from v1.0 to v1.1. But opal gained 15 new features, totaling at 41 now. And it has error systems for the library dependent ones. 
 
-N
