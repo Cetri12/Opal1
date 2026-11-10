@@ -1,14 +1,13 @@
 Opal1 is a python language extension featuring 42 additional bits of useful syntax that transpile directly to python using a lightweight parser and only standard libraries such as sys and subprocess.
 
-Note: Opal is not an app or a PWA, it is intentionally minimal
-
 Opal1 : Created 11/8/2026 from the core of ESPython 1.07.05
 ESPython is very sandbox. Opal1 is not so, the lib system you may know of from ESPython is not featured in opal
+Note: Opal1 is a module or a folder, not an app, PWA, or windows executable
 
 ESPython v1.07.05 Release Link: https://github.com/Cetri12/ESPython/releases/tag/ESPython_1.07.05
+Opal1 Module Link: https://github.com/Cetri12/Opal1/releases/tag/opal-v1.1.2-module
 
 Open Tutorial.txt, or read this:
-
 Opal1 is AOT transpired to python, meaning there is no slowdown during processed file execution
 
 # Notes on Incremental And Decremental Operators:
@@ -66,6 +65,11 @@ Opal1 will throw an error if the proper library is not imported, and for clear, 
 
 
 ## ⚙Execution:
+Download the Module form of opal
+`import opal1`
+`opal1.run(path)`
+
+The traditional Folder Versions:
 Drag code.opal1 into the folder, then double click Run.py
 The code will automatically execute the transpiled product. (this may be disabled in settings)
 You can go into the folder and take out the transpiled product and use it. In most runtimes you do not get to see the
@@ -74,5 +78,5 @@ compiled product, only the results.
 Notes From Creator: 
 it took me roughly 3-4 hours to make this from ESPython v1.07.05. Character by Character parsing is very efficient, and has made this parser very simple yet strong. ESPython is the base of opal1, and it was always meant to be so when I first began making Python-S (ESPython was originally called Python-S). This really showed me that making these complex things isn't actually so hard... I learned much from this and I will eventually launch opal2 off the back of opal1, or make an opal version that transpiles to a different coding language.
 
-It took three more hours [11/8/2026] to jump from v1.0 to v1.1. But opal gained 15 new features, totaling at 41. And it has error systems for the library dependent ones. Then three *more* hours on 11/9/2026 to roll out v1.1.1, a major bug patch taking down 4 bugs, two of which were major ones. The "is" operator was removed because it clashed with python syntax. But the resetvar and resetlist operators helped fill the gap, so now opal1 totals at 42 bits of custom syntax. All the easy to add syntax has been done for the most part, so opal1 development will slow down a bit, and the syntax won't explode exponentially. 
+It took three more hours [11/8/2026] to jump from v1.0 to v1.1. But opal gained 15 new features, totaling at 41. And it has error systems for the library dependent ones. Then three *more* hours on 11/9/2026 to roll out v1.1.1, a major bug patch taking down 4 bugs, two of which were major ones. The "is" operator was removed because it clashed with python syntax. But the resetvar and resetlist operators helped fill the gap, so now opal1 totals at 42 bits of custom syntax. All the easy to add syntax has been done for the most part, so opal1 development will slow down a bit, and the syntax won't explode exponentially. And on 11/10, I optimized opal1 and turned it into a module in 30 minutes.
 
