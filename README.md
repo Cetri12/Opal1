@@ -25,9 +25,9 @@ Opal1 will throw an error if the proper library is not imported, and for clear, 
 
 ## All Syntax:
 
-| Syntax Feature | Opal1 Standard Code Example | Transpiled Python Output |
+| Syntax Feature | Opal1 Code Example | Transpiled Python Output |
 | :--- | :--- | :--- |
-| **Incremental Operator** | `X++` / `Y = X++` | `X = X + 1` |
+| **Incremental Operator** | `X++` / `Y = X++` | `x +=1 / X = X + 1` |
 | **Decremental Operator** | `X--` | `X = X - 1` |
 | **Else if Conditional** | `else if condition:` | `elif condition:` |
 | **Unless Conditional** | `unless condition:` | `if not condition:` |
