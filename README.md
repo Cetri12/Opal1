@@ -1,4 +1,4 @@
-Opal1 is a python language extension featuring 41 additional bits of useful syntax that transpile directly to python using a lightweight parser and only standard libraries such as sys and subprocess.
+Opal1 is a python language extension featuring 42 additional bits of useful syntax that transpile directly to python using a lightweight parser and only standard libraries such as sys and subprocess.
 
 Note: Opal is not an app or a PWA, it is intentionally minimal
 
@@ -17,7 +17,9 @@ Opal1 is AOT transpired to python, meaning there is no slowdown during processed
 ☑X--
 ❌++X
 ☑Y = X++
-❌Y=X-- (sensitive parser, add spaces around both sides of "=")
+☑Y=X--
+
+(The major v1.1.1 patches now mean you can use ++ after an operator such as = without issues)
 
 Notes on Library Dependant Functions:
 Opal1 will throw an error if the proper library is not imported, and for clear, it will throw an error if you aren't on windows.
@@ -50,7 +52,6 @@ Opal1 will throw an error if the proper library is not imported, and for clear, 
 |**Printing Lists** | `printlist(List)` | `print("".join(List))` |
 |**Do Nothing** | `do_nothing` | `pass` |
 |**Time Delay Function** | `delay()` | `time.sleep()` |
-|**Alternate Equals Operator** | `is` | `=` |
 |**Force Stop Code** | `stop` | `sys.exit`|
 |**Clear Terminal** | `clear` | `sys.platform('cls')` |
 |**Even Check** | `Number is_even` | `Number % 2 == 0` |
@@ -58,7 +59,9 @@ Opal1 will throw an error if the proper library is not imported, and for clear, 
 |**Lowercase Operator Alternative** | `.lowercase()` | `.lower()` |
 |**Uppercase Operator Alternative** | `.uppercase()` | `.upper()` |
 |**Alternate If Equal Operator** | `a equals b` |  `a == b` |
-|**String Reverse Operator**| `text reversed` |  `text[::-1]` 
+|**String Reverse Operator**| `text reversed` |  `text[::-1]` |
+|**Reset Variable** | `a resetvar` | `a = ""` |
+|**Reset List** | `a resetlist` | `a = []`
 
 
 
